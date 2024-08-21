@@ -1,4 +1,4 @@
-footer {
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,7 +8,7 @@ footer {
     width: 100%;
 }
 
-footer div {
+.footer div {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
@@ -16,18 +16,18 @@ footer div {
     font-style: normal;
 }
 
-footer div h2 {
+.footer div h2 {
     color: #fefefe;
     margin-bottom: 1.5rem;
 }
 
-footer div ul {
+.footer div ul {
     color: #eeeeee;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-footer div ul li {
+.footer div ul li {
     margin-bottom: 1rem;
 }

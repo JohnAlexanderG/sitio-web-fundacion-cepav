@@ -4,7 +4,7 @@ import Styles from './style.module.css'
 
 function Footer() {
     return (
-        <footer>
+        <footer className={Styles.footer}>
             <div>
                 <h2>Quienes somos</h2>
                 <ul>
